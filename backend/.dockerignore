@@ -1,0 +1,9 @@
+node_modules
+uploads/*
+!uploads/.gitkeep
+.env
+.env.*
+!.env.example
+tests
+*.test.js
+npm-debug.log*

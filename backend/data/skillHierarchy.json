@@ -1,0 +1,488 @@
+{
+  "Docker": {
+    "difficulty": "intermediate",
+    "prerequisites": ["Linux", "Bash"],
+    "resources": [
+      { "type": "docs", "title": "Docker Documentation", "url": "https://docs.docker.com" },
+      { "type": "course", "title": "Docker Mastery on Udemy", "url": "https://www.udemy.com/course/docker-mastery/" },
+      { "type": "video", "title": "Docker Crash Course – YouTube", "url": "https://www.youtube.com/watch?v=pg19Z8LL06w" }
+    ]
+  },
+  "Kubernetes": {
+    "difficulty": "advanced",
+    "prerequisites": ["Docker", "Linux", "Networking"],
+    "resources": [
+      { "type": "docs", "title": "Kubernetes Documentation", "url": "https://kubernetes.io/docs/home/" },
+      { "type": "course", "title": "Kubernetes for Beginners on Udemy", "url": "https://www.udemy.com/course/learn-kubernetes/" },
+      { "type": "video", "title": "Kubernetes Tutorial – TechWorld with Nana", "url": "https://www.youtube.com/watch?v=X48VuDVv0do" }
+    ]
+  },
+  "AWS": {
+    "difficulty": "advanced",
+    "prerequisites": ["Docker", "Linux", "Networking"],
+    "resources": [
+      { "type": "docs", "title": "AWS Documentation", "url": "https://docs.aws.amazon.com" },
+      { "type": "course", "title": "AWS Certified Solutions Architect", "url": "https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c03/" },
+      { "type": "video", "title": "AWS Full Course – freeCodeCamp", "url": "https://www.youtube.com/watch?v=ubCNZFQZZWw" }
+    ]
+  },
+  "Azure": {
+    "difficulty": "advanced",
+    "prerequisites": ["Linux", "Networking"],
+    "resources": [
+      { "type": "docs", "title": "Azure Documentation", "url": "https://docs.microsoft.com/azure" },
+      { "type": "course", "title": "AZ-900 Azure Fundamentals", "url": "https://learn.microsoft.com/en-us/certifications/azure-fundamentals/" },
+      { "type": "video", "title": "Azure Full Course – freeCodeCamp", "url": "https://www.youtube.com/watch?v=NKEFWyqJ5XA" }
+    ]
+  },
+  "GCP": {
+    "difficulty": "advanced",
+    "prerequisites": ["Linux", "Docker", "Networking"],
+    "resources": [
+      { "type": "docs", "title": "Google Cloud Documentation", "url": "https://cloud.google.com/docs" },
+      { "type": "course", "title": "Google Cloud Fundamentals", "url": "https://cloud.google.com/training/courses/google-cloud-fundamentals" },
+      { "type": "video", "title": "GCP Tutorial – TechWorld with Nana", "url": "https://www.youtube.com/watch?v=IUU6OR8yHCc" }
+    ]
+  },
+  "Terraform": {
+    "difficulty": "advanced",
+    "prerequisites": ["AWS", "Linux"],
+    "resources": [
+      { "type": "docs", "title": "Terraform Documentation", "url": "https://developer.hashicorp.com/terraform/docs" },
+      { "type": "course", "title": "Terraform Course – freeCodeCamp", "url": "https://www.youtube.com/watch?v=SLB_c_ayRMo" },
+      { "type": "video", "title": "Terraform Crash Course – TechWorld with Nana", "url": "https://www.youtube.com/watch?v=l5k1ai_GBDE" }
+    ]
+  },
+  "Linux": {
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "resources": [
+      { "type": "docs", "title": "Linux Documentation Project", "url": "https://www.tldp.org" },
+      { "type": "course", "title": "Linux Command Line Basics – Udemy", "url": "https://www.udemy.com/course/linux-command-line-basics/" },
+      { "type": "video", "title": "Linux Full Course – freeCodeCamp", "url": "https://www.youtube.com/watch?v=wBp0Rb-ZJak" }
+    ]
+  },
+  "Bash": {
+    "difficulty": "beginner",
+    "prerequisites": ["Linux"],
+    "resources": [
+      { "type": "docs", "title": "Bash Reference Manual", "url": "https://www.gnu.org/software/bash/manual/bash.html" },
+      { "type": "course", "title": "Bash Scripting Tutorial", "url": "https://www.udemy.com/course/bash-scripting/" },
+      { "type": "video", "title": "Bash Scripting Crash Course – Traversy Media", "url": "https://www.youtube.com/watch?v=v-F3YLd6oMw" }
+    ]
+  },
+  "Git": {
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "resources": [
+      { "type": "docs", "title": "Git Documentation", "url": "https://git-scm.com/doc" },
+      { "type": "course", "title": "Git & GitHub Crash Course", "url": "https://www.udemy.com/course/git-and-github-bootcamp/" },
+      { "type": "video", "title": "Git Tutorial for Beginners – Programming with Mosh", "url": "https://www.youtube.com/watch?v=8JJ101D3knE" }
+    ]
+  },
+  "Python": {
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "resources": [
+      { "type": "docs", "title": "Python Documentation", "url": "https://docs.python.org/3/" },
+      { "type": "course", "title": "Python Bootcamp – Udemy", "url": "https://www.udemy.com/course/complete-python-bootcamp/" },
+      { "type": "video", "title": "Python for Beginners – Programming with Mosh", "url": "https://www.youtube.com/watch?v=kqtD5dpn9C8" }
+    ]
+  },
+  "JavaScript": {
+    "difficulty": "beginner",
+    "prerequisites": ["HTML", "CSS"],
+    "resources": [
+      { "type": "docs", "title": "MDN JavaScript Guide", "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide" },
+      { "type": "course", "title": "JavaScript Algorithms and Data Structures – freeCodeCamp", "url": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/" },
+      { "type": "video", "title": "JavaScript Crash Course – Traversy Media", "url": "https://www.youtube.com/watch?v=hdI2bqOjy3c" }
+    ]
+  },
+  "TypeScript": {
+    "difficulty": "intermediate",
+    "prerequisites": ["JavaScript"],
+    "resources": [
+      { "type": "docs", "title": "TypeScript Documentation", "url": "https://www.typescriptlang.org/docs/" },
+      { "type": "course", "title": "TypeScript Course for Beginners", "url": "https://www.udemy.com/course/typescript-the-complete-developers-guide/" },
+      { "type": "video", "title": "TypeScript Tutorial – Net Ninja", "url": "https://www.youtube.com/watch?v=2pZmKW9-I_k" }
+    ]
+  },
+  "React": {
+    "difficulty": "intermediate",
+    "prerequisites": ["JavaScript", "HTML", "CSS"],
+    "resources": [
+      { "type": "docs", "title": "React Documentation", "url": "https://react.dev" },
+      { "type": "course", "title": "React – The Complete Guide – Udemy", "url": "https://www.udemy.com/course/react-the-complete-guide-incl-redux/" },
+      { "type": "video", "title": "React Crash Course – Traversy Media", "url": "https://www.youtube.com/watch?v=w7ejDZ8SWv8" }
+    ]
+  },
+  "Next.js": {
+    "difficulty": "intermediate",
+    "prerequisites": ["React", "JavaScript"],
+    "resources": [
+      { "type": "docs", "title": "Next.js Documentation", "url": "https://nextjs.org/docs" },
+      { "type": "course", "title": "Next.js & React Complete Guide – Udemy", "url": "https://www.udemy.com/course/nextjs-react-the-complete-guide/" },
+      { "type": "video", "title": "Next.js Crash Course – Traversy Media", "url": "https://www.youtube.com/watch?v=mTz0GXj8NN0" }
+    ]
+  },
+  "Vue": {
+    "difficulty": "intermediate",
+    "prerequisites": ["JavaScript", "HTML", "CSS"],
+    "resources": [
+      { "type": "docs", "title": "Vue.js Documentation", "url": "https://vuejs.org/guide/introduction" },
+      { "type": "course", "title": "Vue.js Complete Guide – Udemy", "url": "https://www.udemy.com/course/vuejs-2-the-complete-guide/" },
+      { "type": "video", "title": "Vue Crash Course – Traversy Media", "url": "https://www.youtube.com/watch?v=qZXt1Aom3Cs" }
+    ]
+  },
+  "Angular": {
+    "difficulty": "advanced",
+    "prerequisites": ["TypeScript", "JavaScript"],
+    "resources": [
+      { "type": "docs", "title": "Angular Documentation", "url": "https://angular.io/docs" },
+      { "type": "course", "title": "Angular – The Complete Guide – Udemy", "url": "https://www.udemy.com/course/the-complete-guide-to-angular-2/" },
+      { "type": "video", "title": "Angular Crash Course – Traversy Media", "url": "https://www.youtube.com/watch?v=3dHNOWTI7H8" }
+    ]
+  },
+  "Node.js": {
+    "difficulty": "intermediate",
+    "prerequisites": ["JavaScript"],
+    "resources": [
+      { "type": "docs", "title": "Node.js Documentation", "url": "https://nodejs.org/en/docs/" },
+      { "type": "course", "title": "Node.js Complete Guide – Udemy", "url": "https://www.udemy.com/course/nodejs-the-complete-guide/" },
+      { "type": "video", "title": "Node.js Crash Course – Traversy Media", "url": "https://www.youtube.com/watch?v=fBNz5xF-Kx4" }
+    ]
+  },
+  "Express": {
+    "difficulty": "intermediate",
+    "prerequisites": ["Node.js", "JavaScript"],
+    "resources": [
+      { "type": "docs", "title": "Express.js Documentation", "url": "https://expressjs.com" },
+      { "type": "course", "title": "Node.js & Express.js Course – freeCodeCamp", "url": "https://www.youtube.com/watch?v=Oe421EPjeBE" },
+      { "type": "video", "title": "Express.js Crash Course – Traversy Media", "url": "https://www.youtube.com/watch?v=L72fhGm1tfE" }
+    ]
+  },
+  "Django": {
+    "difficulty": "intermediate",
+    "prerequisites": ["Python"],
+    "resources": [
+      { "type": "docs", "title": "Django Documentation", "url": "https://docs.djangoproject.com" },
+      { "type": "course", "title": "Python Django Tutorial – Udemy", "url": "https://www.udemy.com/course/python-and-django-full-stack-web-developer-bootcamp/" },
+      { "type": "video", "title": "Django Crash Course – Traversy Media", "url": "https://www.youtube.com/watch?v=e1IyzVyrLSU" }
+    ]
+  },
+  "Flask": {
+    "difficulty": "intermediate",
+    "prerequisites": ["Python"],
+    "resources": [
+      { "type": "docs", "title": "Flask Documentation", "url": "https://flask.palletsprojects.com" },
+      { "type": "course", "title": "Python Flask Course – freeCodeCamp", "url": "https://www.youtube.com/watch?v=Z1RJmh_OqeA" },
+      { "type": "video", "title": "Flask Crash Course – Traversy Media", "url": "https://www.youtube.com/watch?v=Z1RJmh_OqeA" }
+    ]
+  },
+  "FastAPI": {
+    "difficulty": "intermediate",
+    "prerequisites": ["Python"],
+    "resources": [
+      { "type": "docs", "title": "FastAPI Documentation", "url": "https://fastapi.tiangolo.com" },
+      { "type": "course", "title": "FastAPI Course – freeCodeCamp", "url": "https://www.youtube.com/watch?v=0sOvCWFmrtA" },
+      { "type": "video", "title": "FastAPI Tutorial – TechWorld with Nana", "url": "https://www.youtube.com/watch?v=0sOvCWFmrtA" }
+    ]
+  },
+  "MongoDB": {
+    "difficulty": "intermediate",
+    "prerequisites": ["JavaScript"],
+    "resources": [
+      { "type": "docs", "title": "MongoDB Documentation", "url": "https://www.mongodb.com/docs/" },
+      { "type": "course", "title": "MongoDB Complete Guide – Udemy", "url": "https://www.udemy.com/course/mongodb-the-complete-developers-guide/" },
+      { "type": "video", "title": "MongoDB Crash Course – Traversy Media", "url": "https://www.youtube.com/watch?v=-56x56UppqQ" }
+    ]
+  },
+  "PostgreSQL": {
+    "difficulty": "intermediate",
+    "prerequisites": ["SQL"],
+    "resources": [
+      { "type": "docs", "title": "PostgreSQL Documentation", "url": "https://www.postgresql.org/docs/" },
+      { "type": "course", "title": "SQL and PostgreSQL – Udemy", "url": "https://www.udemy.com/course/sql-and-postgresql/" },
+      { "type": "video", "title": "PostgreSQL Tutorial – freeCodeCamp", "url": "https://www.youtube.com/watch?v=qw--VYLpxG4" }
+    ]
+  },
+  "MySQL": {
+    "difficulty": "beginner",
+    "prerequisites": ["SQL"],
+    "resources": [
+      { "type": "docs", "title": "MySQL Documentation", "url": "https://dev.mysql.com/doc/" },
+      { "type": "course", "title": "MySQL – The Complete Guide – Udemy", "url": "https://www.udemy.com/course/mysql-the-complete-guide/" },
+      { "type": "video", "title": "MySQL Crash Course – Traversy Media", "url": "https://www.youtube.com/watch?v=9ylj9NR0Lcg" }
+    ]
+  },
+  "Redis": {
+    "difficulty": "intermediate",
+    "prerequisites": ["Linux"],
+    "resources": [
+      { "type": "docs", "title": "Redis Documentation", "url": "https://redis.io/docs/" },
+      { "type": "course", "title": "Redis Crash Course – Traversy Media", "url": "https://www.youtube.com/watch?v=jgpVdJB2sKQ" },
+      { "type": "video", "title": "Redis Tutorial – TechWorld with Nana", "url": "https://www.youtube.com/watch?v=a4yX7RUgTxI" }
+    ]
+  },
+  "Elasticsearch": {
+    "difficulty": "advanced",
+    "prerequisites": ["Linux", "REST"],
+    "resources": [
+      { "type": "docs", "title": "Elasticsearch Documentation", "url": "https://www.elastic.co/guide/en/elasticsearch/reference/current/index.html" },
+      { "type": "course", "title": "Elasticsearch Complete Guide – Udemy", "url": "https://www.udemy.com/course/elasticsearch-complete-guide/" },
+      { "type": "video", "title": "Elasticsearch Crash Course – freeCodeCamp", "url": "https://www.youtube.com/watch?v=C3tlMqaNSaI" }
+    ]
+  },
+  "GraphQL": {
+    "difficulty": "intermediate",
+    "prerequisites": ["REST", "JavaScript"],
+    "resources": [
+      { "type": "docs", "title": "GraphQL Documentation", "url": "https://graphql.org/learn/" },
+      { "type": "course", "title": "GraphQL with React – Udemy", "url": "https://www.udemy.com/course/graphql-with-react-course/" },
+      { "type": "video", "title": "GraphQL Crash Course – Traversy Media", "url": "https://www.youtube.com/watch?v=BcLNfwF04Kw" }
+    ]
+  },
+  "REST": {
+    "difficulty": "beginner",
+    "prerequisites": ["HTTP"],
+    "resources": [
+      { "type": "docs", "title": "REST API Design Best Practices", "url": "https://restfulapi.net" },
+      { "type": "course", "title": "REST API Design – Udemy", "url": "https://www.udemy.com/course/rest-api-design/" },
+      { "type": "video", "title": "REST API Tutorial – Traversy Media", "url": "https://www.youtube.com/watch?v=Q-BpqyOT3a8" }
+    ]
+  },
+  "SQL": {
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "resources": [
+      { "type": "docs", "title": "SQL Tutorial – W3Schools", "url": "https://www.w3schools.com/sql/" },
+      { "type": "course", "title": "The Complete SQL Bootcamp – Udemy", "url": "https://www.udemy.com/course/the-complete-sql-bootcamp/" },
+      { "type": "video", "title": "SQL Tutorial – freeCodeCamp", "url": "https://www.youtube.com/watch?v=HXV3zeQKqGY" }
+    ]
+  },
+  "Machine Learning": {
+    "difficulty": "advanced",
+    "prerequisites": ["Python", "NumPy", "Pandas"],
+    "resources": [
+      { "type": "docs", "title": "scikit-learn Documentation", "url": "https://scikit-learn.org/stable/documentation.html" },
+      { "type": "course", "title": "Machine Learning A-Z – Udemy", "url": "https://www.udemy.com/course/machinelearning/" },
+      { "type": "video", "title": "Machine Learning Course – freeCodeCamp", "url": "https://www.youtube.com/watch?v=NWONeJKn6kc" }
+    ]
+  },
+  "TensorFlow": {
+    "difficulty": "advanced",
+    "prerequisites": ["Python", "Machine Learning", "NumPy"],
+    "resources": [
+      { "type": "docs", "title": "TensorFlow Documentation", "url": "https://www.tensorflow.org/learn" },
+      { "type": "course", "title": "TensorFlow Developer Certificate – Udemy", "url": "https://www.udemy.com/course/tensorflow-developer-certificate-machine-learning-zero-to-mastery/" },
+      { "type": "video", "title": "TensorFlow 2.0 Complete Course – freeCodeCamp", "url": "https://www.youtube.com/watch?v=tPYj3fFJGjk" }
+    ]
+  },
+  "PyTorch": {
+    "difficulty": "advanced",
+    "prerequisites": ["Python", "Machine Learning", "NumPy"],
+    "resources": [
+      { "type": "docs", "title": "PyTorch Documentation", "url": "https://pytorch.org/docs/stable/index.html" },
+      { "type": "course", "title": "PyTorch for Deep Learning – Udemy", "url": "https://www.udemy.com/course/pytorch-for-deep-learning-with-python-bootcamp/" },
+      { "type": "video", "title": "PyTorch Tutorial – freeCodeCamp", "url": "https://www.youtube.com/watch?v=c36lUUr864M" }
+    ]
+  },
+  "Pandas": {
+    "difficulty": "intermediate",
+    "prerequisites": ["Python"],
+    "resources": [
+      { "type": "docs", "title": "Pandas Documentation", "url": "https://pandas.pydata.org/docs/" },
+      { "type": "course", "title": "Pandas Complete Guide – Udemy", "url": "https://www.udemy.com/course/data-analysis-with-pandas/" },
+      { "type": "video", "title": "Pandas Tutorial – freeCodeCamp", "url": "https://www.youtube.com/watch?v=vmEHCJofslg" }
+    ]
+  },
+  "NumPy": {
+    "difficulty": "intermediate",
+    "prerequisites": ["Python"],
+    "resources": [
+      { "type": "docs", "title": "NumPy Documentation", "url": "https://numpy.org/doc/stable/" },
+      { "type": "course", "title": "NumPy Tutorial – freeCodeCamp", "url": "https://www.youtube.com/watch?v=QUT1VHiLmmI" },
+      { "type": "video", "title": "NumPy Crash Course – Traversy Media", "url": "https://www.youtube.com/watch?v=QUT1VHiLmmI" }
+    ]
+  },
+  "Java": {
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "resources": [
+      { "type": "docs", "title": "Java Documentation", "url": "https://docs.oracle.com/en/java/" },
+      { "type": "course", "title": "Java Masterclass – Udemy", "url": "https://www.udemy.com/course/java-the-complete-java-developer-course/" },
+      { "type": "video", "title": "Java Full Course – Programming with Mosh", "url": "https://www.youtube.com/watch?v=eIrMbAQSU34" }
+    ]
+  },
+  "Spring": {
+    "difficulty": "advanced",
+    "prerequisites": ["Java"],
+    "resources": [
+      { "type": "docs", "title": "Spring Documentation", "url": "https://spring.io/learn" },
+      { "type": "course", "title": "Spring Boot & Hibernate – Udemy", "url": "https://www.udemy.com/course/spring-hibernate-tutorial/" },
+      { "type": "video", "title": "Spring Boot Tutorial – Amigoscode", "url": "https://www.youtube.com/watch?v=9SGDpanrc8U" }
+    ]
+  },
+  "HTML": {
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "resources": [
+      { "type": "docs", "title": "MDN HTML Guide", "url": "https://developer.mozilla.org/en-US/docs/Web/HTML" },
+      { "type": "course", "title": "HTML and CSS Crash Course – freeCodeCamp", "url": "https://www.freecodecamp.org/learn/responsive-web-design/" },
+      { "type": "video", "title": "HTML Crash Course – Traversy Media", "url": "https://www.youtube.com/watch?v=UB1O30fR-EE" }
+    ]
+  },
+  "CSS": {
+    "difficulty": "beginner",
+    "prerequisites": ["HTML"],
+    "resources": [
+      { "type": "docs", "title": "MDN CSS Guide", "url": "https://developer.mozilla.org/en-US/docs/Web/CSS" },
+      { "type": "course", "title": "CSS Flexbox & Grid – freeCodeCamp", "url": "https://www.freecodecamp.org/learn/responsive-web-design/#css-flexbox" },
+      { "type": "video", "title": "CSS Crash Course – Traversy Media", "url": "https://www.youtube.com/watch?v=yfoY53QXEnI" }
+    ]
+  },
+  "Tailwind": {
+    "difficulty": "beginner",
+    "prerequisites": ["CSS", "HTML"],
+    "resources": [
+      { "type": "docs", "title": "Tailwind CSS Documentation", "url": "https://tailwindcss.com/docs" },
+      { "type": "course", "title": "Tailwind CSS From Scratch – Udemy", "url": "https://www.udemy.com/course/tailwind-from-scratch/" },
+      { "type": "video", "title": "Tailwind CSS Crash Course – Traversy Media", "url": "https://www.youtube.com/watch?v=dFgzHOX84xQ" }
+    ]
+  },
+  "Redux": {
+    "difficulty": "intermediate",
+    "prerequisites": ["React", "JavaScript"],
+    "resources": [
+      { "type": "docs", "title": "Redux Documentation", "url": "https://redux.js.org" },
+      { "type": "course", "title": "Redux Complete Guide – Udemy", "url": "https://www.udemy.com/course/react-redux/" },
+      { "type": "video", "title": "Redux Crash Course – Traversy Media", "url": "https://www.youtube.com/watch?v=poQXNp9ItL4" }
+    ]
+  },
+  "Golang": {
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "resources": [
+      { "type": "docs", "title": "Go Documentation", "url": "https://go.dev/doc/" },
+      { "type": "course", "title": "Go Programming Bootcamp – Udemy", "url": "https://www.udemy.com/course/go-programming-language/" },
+      { "type": "video", "title": "Go Crash Course – Traversy Media", "url": "https://www.youtube.com/watch?v=SqrbIlUwR0U" }
+    ]
+  },
+  "Rust": {
+    "difficulty": "advanced",
+    "prerequisites": ["Systems Programming"],
+    "resources": [
+      { "type": "docs", "title": "Rust Book", "url": "https://doc.rust-lang.org/book/" },
+      { "type": "course", "title": "Rust Programming Course – Udemy", "url": "https://www.udemy.com/course/ultimate-rust-crash-course/" },
+      { "type": "video", "title": "Rust Tutorial – freeCodeCamp", "url": "https://www.youtube.com/watch?v=ygL_xcavzQ4" }
+    ]
+  },
+  "Microservices": {
+    "difficulty": "advanced",
+    "prerequisites": ["Docker", "REST", "Kubernetes"],
+    "resources": [
+      { "type": "docs", "title": "Microservices Architecture Patterns", "url": "https://microservices.io/patterns/index.html" },
+      { "type": "course", "title": "Microservices with Node & React – Udemy", "url": "https://www.udemy.com/course/microservices-with-node-js-and-react/" },
+      { "type": "video", "title": "Microservices Tutorial – freeCodeCamp", "url": "https://www.youtube.com/watch?v=rv4LlmLmVWk" }
+    ]
+  },
+  "CI/CD": {
+    "difficulty": "intermediate",
+    "prerequisites": ["Git", "Docker"],
+    "resources": [
+      { "type": "docs", "title": "GitHub Actions Documentation", "url": "https://docs.github.com/en/actions" },
+      { "type": "course", "title": "CI/CD with GitHub Actions – Udemy", "url": "https://www.udemy.com/course/github-actions-the-complete-guide/" },
+      { "type": "video", "title": "CI/CD Pipeline Tutorial – TechWorld with Nana", "url": "https://www.youtube.com/watch?v=R8_veQiYBjI" }
+    ]
+  },
+  "Jenkins": {
+    "difficulty": "intermediate",
+    "prerequisites": ["Git", "Linux"],
+    "resources": [
+      { "type": "docs", "title": "Jenkins Documentation", "url": "https://www.jenkins.io/doc/" },
+      { "type": "course", "title": "Jenkins Tutorial – Udemy", "url": "https://www.udemy.com/course/jenkins-from-zero-to-hero/" },
+      { "type": "video", "title": "Jenkins Tutorial – TechWorld with Nana", "url": "https://www.youtube.com/watch?v=6YZvp2GwT0A" }
+    ]
+  },
+  "Ansible": {
+    "difficulty": "advanced",
+    "prerequisites": ["Linux", "Python"],
+    "resources": [
+      { "type": "docs", "title": "Ansible Documentation", "url": "https://docs.ansible.com" },
+      { "type": "course", "title": "Ansible for Beginners – Udemy", "url": "https://www.udemy.com/course/learn-ansible/" },
+      { "type": "video", "title": "Ansible Tutorial – TechWorld with Nana", "url": "https://www.youtube.com/watch?v=1id6ERvfozo" }
+    ]
+  },
+  "Kafka": {
+    "difficulty": "advanced",
+    "prerequisites": ["Linux", "Java"],
+    "resources": [
+      { "type": "docs", "title": "Apache Kafka Documentation", "url": "https://kafka.apache.org/documentation/" },
+      { "type": "course", "title": "Apache Kafka for Beginners – Udemy", "url": "https://www.udemy.com/course/apache-kafka/" },
+      { "type": "video", "title": "Kafka Tutorial – freeCodeCamp", "url": "https://www.youtube.com/watch?v=Ch5VhJzaoaI" }
+    ]
+  },
+  "Spark": {
+    "difficulty": "advanced",
+    "prerequisites": ["Python", "Java", "Hadoop"],
+    "resources": [
+      { "type": "docs", "title": "Apache Spark Documentation", "url": "https://spark.apache.org/docs/latest/" },
+      { "type": "course", "title": "Apache Spark with Scala – Udemy", "url": "https://www.udemy.com/course/apache-spark-with-scala-hands-on-with-big-data/" },
+      { "type": "video", "title": "Spark Tutorial – freeCodeCamp", "url": "https://www.youtube.com/watch?v=_C8kWso4ne4" }
+    ]
+  },
+  "System Design": {
+    "difficulty": "advanced",
+    "prerequisites": ["Microservices", "Databases"],
+    "resources": [
+      { "type": "docs", "title": "System Design Primer – GitHub", "url": "https://github.com/donnemartin/system-design-primer" },
+      { "type": "course", "title": "Grokking the System Design Interview – Educative", "url": "https://www.educative.io/courses/grokking-the-system-design-interview" },
+      { "type": "video", "title": "System Design Interview Crash Course – freeCodeCamp", "url": "https://www.youtube.com/watch?v=i53Gi_K3o7I" }
+    ]
+  },
+  "JWT": {
+    "difficulty": "intermediate",
+    "prerequisites": ["REST", "JavaScript"],
+    "resources": [
+      { "type": "docs", "title": "JWT Documentation", "url": "https://jwt.io/introduction" },
+      { "type": "course", "title": "Node.js JWT Authentication – Udemy", "url": "https://www.udemy.com/course/nodejs-the-complete-guide/" },
+      { "type": "video", "title": "JWT Authentication Tutorial – Web Dev Simplified", "url": "https://www.youtube.com/watch?v=mbsmsi7l3r4" }
+    ]
+  },
+  "OAuth": {
+    "difficulty": "advanced",
+    "prerequisites": ["REST", "JWT"],
+    "resources": [
+      { "type": "docs", "title": "OAuth 2.0 Documentation", "url": "https://oauth.net/2/" },
+      { "type": "course", "title": "OAuth 2.0 in Node.js – Udemy", "url": "https://www.udemy.com/course/oauth-2-simplified/" },
+      { "type": "video", "title": "OAuth 2.0 Tutorial – Traversy Media", "url": "https://www.youtube.com/watch?v=996OiexHze0" }
+    ]
+  },
+  "Webpack": {
+    "difficulty": "intermediate",
+    "prerequisites": ["JavaScript", "Node.js"],
+    "resources": [
+      { "type": "docs", "title": "Webpack Documentation", "url": "https://webpack.js.org/concepts/" },
+      { "type": "course", "title": "Webpack Tutorial – freeCodeCamp", "url": "https://www.youtube.com/watch?v=MpGLUVbqoYQ" },
+      { "type": "video", "title": "Webpack Crash Course – Traversy Media", "url": "https://www.youtube.com/watch?v=IZGNcSuwBZs" }
+    ]
+  },
+  "Selenium": {
+    "difficulty": "intermediate",
+    "prerequisites": ["Python", "Java"],
+    "resources": [
+      { "type": "docs", "title": "Selenium Documentation", "url": "https://www.selenium.dev/documentation/" },
+      { "type": "course", "title": "Selenium WebDriver with Python – Udemy", "url": "https://www.udemy.com/course/selenium-real-time-examplesinterview-questions/" },
+      { "type": "video", "title": "Selenium Tutorial – freeCodeCamp", "url": "https://www.youtube.com/watch?v=j7VZsCCnptM" }
+    ]
+  },
+  "Cypress": {
+    "difficulty": "intermediate",
+    "prerequisites": ["JavaScript"],
+    "resources": [
+      { "type": "docs", "title": "Cypress Documentation", "url": "https://docs.cypress.io" },
+      { "type": "course", "title": "Cypress End-to-End Testing – Udemy", "url": "https://www.udemy.com/course/cypress-io-master-class/" },
+      { "type": "video", "title": "Cypress Crash Course – Traversy Media", "url": "https://www.youtube.com/watch?v=avBUqv9dsck" }
+    ]
+  }
+}

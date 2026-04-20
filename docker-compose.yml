@@ -1,0 +1,80 @@
+version: '3.9'
+
+services:
+  # MongoDB
+  mongo:
+    image: mongo:7
+    container_name: ai_resume_mongo
+    restart: unless-stopped
+    volumes:
+      - mongo_data:/data/db
+    ports:
+      - '27017:27017'
+    networks:
+      - app_network
+
+  # Redis
+  redis:
+    image: redis:7-alpine
+    container_name: ai_resume_redis
+    restart: unless-stopped
+    ports:
+      - '6379:6379'
+    networks:
+      - app_network
+
+  # Python NLP Microservice
+  nlp-service:
+    build: ./nlp-service
+    container_name: ai_resume_nlp
+    restart: unless-stopped
+    environment:
+      PORT: 8000
+      DEBUG: 'false'
+    ports:
+      - '8000:8000'
+    networks:
+      - app_network
+
+  # Node.js Backend
+  backend:
+    build: ./backend
+    container_name: ai_resume_backend
+    restart: unless-stopped
+    environment:
+      PORT: 5000
+      MONGO_URI: mongodb://mongo:27017/ai_resume_matching
+      JWT_SECRET: change_this_secret_in_production
+      REDIS_URL: redis://redis:6379
+      NLP_SERVICE_URL: http://nlp-service:8000
+    ports:
+      - '5000:5000'
+    depends_on:
+      - mongo
+      - redis
+      - nlp-service
+    volumes:
+      - ./backend/uploads:/app/uploads
+    networks:
+      - app_network
+
+  # React Frontend (production build served by nginx)
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: ai_resume_frontend
+    restart: unless-stopped
+    ports:
+      - '3000:80'
+    depends_on:
+      - backend
+    networks:
+      - app_network
+
+volumes:
+  mongo_data:
+
+networks:
+  app_network:
+    driver: bridge
